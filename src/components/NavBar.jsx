@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { NavLink } from 'react-router-dom';
 
 import logo from '../assets/logo.svg'
 
@@ -13,7 +14,7 @@ function NavBar() {
     <>
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand as={NavLink} to="/">
             <img
               alt=""
               src={logo}
@@ -21,14 +22,15 @@ function NavBar() {
               height="30"
               className="d-inline-block align-top"
             />{' '}
-            E-commerce Deporte
+            E-commerce Autos
           </Navbar.Brand>
           <Nav className="mx-auto gap-3">
-            <Nav.Link href="#">Categorias</Nav.Link>
-            <Nav.Link href="#" className='active'>Lanzamientos</Nav.Link>
-            <Nav.Link href="#">Marcas</Nav.Link>
-            <Nav.Link href="#">Deporte</Nav.Link>
-            <Nav.Link href="#">Moda</Nav.Link>
+            <Nav.Link as={NavLink} to="/">Home</Nav.Link>
+            <Nav.Link as={NavLink} to="/category/sedan">Sedan</Nav.Link>
+            <Nav.Link as={NavLink} to="/category/suv">SUV</Nav.Link>
+            <Nav.Link as={NavLink} to="/category/camioneta">Camioneta</Nav.Link>
+            <Nav.Link as={NavLink} to="/category/deportivo">Deportivo</Nav.Link>
+
           </Nav>
           <SearchWidget />
           <FavWidget />

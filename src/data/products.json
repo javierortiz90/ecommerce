@@ -1,0 +1,109 @@
+[{
+  "id": 1,
+  "name": "Buick",
+  "model": "Regal",
+  "year": 1996,
+  "category": "sedan",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/2020_Buick_Regal_Sportback_%28United_States%29_front_view_%28cropped%29.jpg/1920px-2020_Buick_Regal_Sportback_%28United_States%29_front_view_%28cropped%29.jpg",
+  "price": "$10812.91"
+}, {
+  "id": 2,
+  "name": "Volkswagen",
+  "model": "Jetta",
+  "year": 1993,
+  "category": "sedan",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/VW_Vento_front_20080320.jpg",
+  "price": "$13220.56"
+}, {
+  "id": 3,
+  "name": "Toyota",
+  "model": "Hilux",
+  "year": 2011,
+  "category": "camioneta",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/2016_Toyota_HiLux_%28GUN136R%29_SR5_4-door_utility_%282018-09-03%29_01.jpg",
+  "price": "$17364.42"
+}, {
+  "id": 4,
+  "name": "Buick",
+  "model": "Enclave",
+  "year": 2010,
+  "category": "suv",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/2019_Buick_Enclave_3.6L%2C_front_8.25.19.jpg",
+  "price": "$10240.80"
+}, {
+  "id": 5,
+  "name": "Nissan",
+  "model": "Armada",
+  "year": 2010,
+  "category": "suv",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/dc/2021_Nissan_Armada_SV_%28United_States%29_front_view_%28cropped%29.jpg",
+  "price": "$15824.72"
+}, {
+  "id": 6,
+  "name": "Buick",
+  "model": "Rendezvous",
+  "year": 2005,
+  "category": "suv",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/02-03_Buick_Rendezvous.jpg",
+  "price": "$14072.43"
+}, {
+  "id": 7,
+  "name": "Pontiac",
+  "model": "Firebird",
+  "year": 1987,
+  "category": "deportivo",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/89_Firebird_Formula_WS6.png",
+  "price": "$14830.52"
+}, {
+  "id": 8,
+  "name": "Toyota",
+  "model": "Land Cruiser",
+  "year": 2003,
+  "category": "suv",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/2021_Toyota_Land_Cruiser_300_3.4_ZX_%28Colombia%29_front_view_04.png",
+  "price": "$11078.05"
+}, {
+  "id": 9,
+  "name": "Mercedes-Benz",
+  "model": "CL-Class",
+  "year": 2001,
+  "category": "sedan",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Mercedes-Benz_CL_500_Sport-Paket_AMG_%28C_216%29_%E2%80%93_Frontansicht%2C_2._April_2011%2C_D%C3%BCsseldorf.jpg",
+  "price": "$25832.81"
+}, {
+  "id": 10,
+  "name": "Pontiac",
+  "model": "Grand Prix",
+  "year": 1990,
+  "category": "sedan",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/1997_Pontiac_Grand_Prix_GT_coupe%2C_front_left%2C_09-09-2023.jpg",
+  "price": "$10255.38"
+}, {
+  "id": 11,
+  "name": "Ford",
+  "model": "Ranger",
+  "year": 2017,
+  "category": "camioneta",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/b7/2017_Ford_Ranger_Limited.jpg",
+  "price": "$25832.81"
+}, {
+  "id": 12,
+  "name": "Mclaren",
+  "model": "P1",
+  "year": 1990,
+  "category": "deportivo",
+  "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/2013-03-05_Geneva_Motor_Show_7846.JPG",
+  "price": "$10255.38"
+}]
