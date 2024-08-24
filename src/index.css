@@ -1,5 +1,22 @@
-span {
+a{
+  text-decoration: none !important;
+}
+
+.cartNumber {
+  font-size: 1.5em;
+  font-weight:600;
+  color:white;
+}
+
+.itemCount{
   font-size: 1.25em;
   font-weight:600;
-  color: white;
+  text-decoration: none;
 }
+
+.card-img {
+  object-fit: cover;
+  height: 160px;
+  width: 100%;
+}
+

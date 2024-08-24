@@ -1,32 +1,38 @@
-import { useEffect, useState } from "react"
-import { useParams } from 'react-router-dom'
+import { useContext, useEffect, useState } from "react";
+import { useParams } from 'react-router-dom';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
 import Image from 'react-bootstrap/Image';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 
-import data from "../data/products.json";
-
+import { ItemsContext } from "../contexts/itemsContext";
+import { ItemCount } from "./itemCount";
+import { getFirestore, getDoc, doc } from "firebase/firestore";
 
 export const ItemDetailContainer = () => {
     
-    const[item, setItem] = useState(null)
+    const [item, setItem] = useState(null)
     const [loading, setLoading] = useState(true)
 
     const {id} = useParams()
 
+    const {addItem} = useContext(ItemsContext)
+
+    const onAdd = (count) => {
+    addItem({...item, quantity: count})
+    }
+
     useEffect(() => {
-    new Promise((resolve, reject) => {
-       setTimeout( () => resolve(data), 2000)
-    })
-    .then((response)=> {
-        const finded = response.find((i) => i.id === Number(id))
-        setItem(finded)
-      
-      })
+        const db = getFirestore()
+
+        const refDoc = doc(db, "items", id)
+
+        getDoc(refDoc)
+        .then((snapshot) => {
+            setItem({ id: snapshot.id, ...snapshot.data()})
+        })
     .finally(()=> setLoading(false))
 }, [id])
 
@@ -37,19 +43,24 @@ if(!item)
     return <Container className="mt-4 text-center"><h2>No existe la pagina que estas buscando</h2></Container>
 
     return(
-    <Container className="py-5">
-        <Row>
+    <Container>
+        <Row className="py-5">
             <Col sm={12} lg={6} xl={8}>
-                <Image src={item.image} alt="" fluid rounded/>
+                <Image src={item.imageId} fluid rounded/>
             </Col>
             <Col sm={12} lg={6} xl={4}>
-                <h1>{item.name} {item.model}</h1>
-                <h3>{item.category}</h3>
-                <h4>Precio de contado</h4>
-                <p>{item.price}</p>
-                <h4>Detalles</h4>
+                <div className="rounded h-100 p-4 shadow">
+                <h1>{item.title} ∙ {item.model}</h1>
+                <p>{item.year} ∙ {item.kmts} Km ∙ {item.transmition}</p>
+                <hr />
+                <h5>Precio contado</h5>
+                <h3>${item.price}</h3>
+                <hr />
+                <h5>Detalles</h5>
                 <p>{item.details}</p>
-                <Button className="w-100">RESERVAR</Button>
+                <p>Stock: {item.stock}</p>
+                <ItemCount stock={ item.stock } onAdd={onAdd}/>
+                </div>
             </Col>
         </Row>
     </Container>    
