@@ -1,8 +1,12 @@
-# React + Vite
+# Entrega Final React Js 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto e-commerce para coderhouse React Js construido con Vite + React + BootstrapReact
 
-Currently, two official plugins are available:
+El proyecto consta de un e-commerce de autos donde se podrá visualizar un catalogo de autos con sus caracteristicas y precio.
+Ademas desde la navegación se puede filtrar por categorias de automoviles.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+En la sección de cada vehiculo podremos ver todas sus caracteristicas como: nombre, modelo, año, kilometraje, tipo de transmision y precio. Tambien podremos ver la cantidad de stock de cada uno y una seccion para seleccionar la cantidad que deseemos agregar al carrito.
+
+Una vez agregados productos al carrito podremos visualizar, todos los vehiculos agregados. Si deseamos podremos borrar de a uno o vaciar completamente el carrito de compras.
+
+Finalmente podremos hacer el checkout ingresando nuestros datos en el formulario, y una vez validados se confirmará la compra otorgando un alert con el id de orden generada.

@@ -5,8 +5,6 @@ import { ItemDetailContainer } from "./components/ItemDetailContainer";
 import { Cart } from "./components/cart";
 import { Provider } from "./contexts/itemsContext";
 
-import { getFirestore, getDocs, collection } from "firebase/firestore";
-
 function App() {
 
   return (

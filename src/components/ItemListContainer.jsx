@@ -9,10 +9,6 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 
-            
-//import data from "../data/products.json";
-
-
 export const ItemListContainer = () => {
     
     const[items, setItems] = useState([])
